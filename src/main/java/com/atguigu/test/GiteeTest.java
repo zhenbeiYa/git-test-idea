@@ -20,7 +20,7 @@ public class GiteeTest {
             System.out.println("成功推送");
             System.out.println("当前时间为"+GiteeTest.timePrint(count));
         }
-        System.out.priny("github o);
+        System.out.println("update you name");
     }
     public  static  int timePrint(long count){
         DateTime dateTime=DateTime.now();
