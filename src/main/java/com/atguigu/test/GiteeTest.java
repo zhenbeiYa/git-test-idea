@@ -6,6 +6,8 @@ package com.atguigu.test;/*
  *@Version 1.0
  * */
 
+import cn.hutool.core.date.DateTime;
+
 import java.util.Scanner;
 
 public class GiteeTest {
@@ -16,6 +18,14 @@ public class GiteeTest {
          int count =scanner.nextInt();
         if(count==1){
             System.out.println("成功推送");
+            System.out.println("当前时间为"+GiteeTest.timePrint(count));
         }
+
+
+    }
+    public  static  int timePrint(long count){
+        DateTime dateTime=DateTime.now();
+        dateTime.setTime(count);
+        return  Integer.parseInt(String.valueOf(count));
     }
 }
