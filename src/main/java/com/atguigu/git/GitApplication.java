@@ -14,5 +14,6 @@ public class GitApplication {
         System.out.println("git hello4!");
         System.out.println("444444");
         System.out.println("55555");
+        System.out.println("666666");
     }
 }
